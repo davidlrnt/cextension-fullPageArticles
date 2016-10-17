@@ -1,0 +1,31 @@
+.ce-a100w-focus-element {
+	border: 2px solid #CB8026;
+	cursor: pointer;
+}
+.ce-modal-100 {
+    z-index: 9999999;
+    box-sizing: border-box;
+    background-color: white;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    padding: 10%;
+    width: 100vw; /* Full width */
+    height: 100vh; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+}
+.ce-modal-100-closebtn {
+	border: 1px solid #403F42;
+	padding: 15px;
+	border-radius: 2px;
+	color: #403F42;
+	background-color: #DBD7E3;
+	float: right;
+  margin-top: -5%;
+}
+.ce-modal-100-closebtn:hover {
+	border: 1px solid white;
+	color: white;
+	background-color: #6F9CCC;
+}
